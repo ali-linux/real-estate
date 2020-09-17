@@ -25,7 +25,7 @@ SECRET_KEY = 'enx_%kuhtzj)ocf-#u6y1w^ywhaxel-p@!671vso)bp^j-my=8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['alisrwsht.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.humanize',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
